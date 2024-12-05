@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>数电笔记(1)</title>
+      <title>数电1-数字基本概念</title>
       <link href="/2024/12/02/%E6%95%B0%E7%94%B5%E7%AC%94%E8%AE%B0-1/"/>
       <url>/2024/12/02/%E6%95%B0%E7%94%B5%E7%AC%94%E8%AE%B0-1/</url>
       
-        <content type="html"><![CDATA[<h2 id="施工中…"><a href="#施工中…" class="headerlink" title="施工中…"></a>施工中…</h2>]]></content>
+        <content type="html"><![CDATA[<h3 id="时钟信号"><a href="#时钟信号" class="headerlink" title="时钟信号"></a>时钟信号</h3><p>CP(Clock Pulse)时钟脉冲&#x2F;同步脉冲，是指在数字系统中，时钟信号的一种，它是系统的基本同步信号，用于控制系统各部件的时序关系。</p><h3 id="数制相互转换"><a href="#数制相互转换" class="headerlink" title="数制相互转换"></a>数制相互转换</h3><ul><li>十进制数，例：<br>$$<br>475.6 &#x3D; 4 \times 10^2 + 7 \times 10^1 + 5 \times 10^0 + 6 \times 10^{-1}<br>$$<br>也可以表示为<br>$$(475.6)_{10} 或 475.6D$$</li><li>二进制数，例：<br>$$<br>1101.001 &#x3D; 1 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 + 0 \times 2^{-1} + 0 \times 2^{-2} + 1 \times 2^{-3}<br>$$<br>也可以表示为<br>$$(1101.001)_{2} 或 1101.001B$$</li></ul><blockquote><p>例：<br>$$<br>(A8D.C)<em>{16} &#x3D; A\times16^2 + 8\times16^1 + D\times16^0 + C\times16^{-1} &#x3D; (2701.75)</em>{10}<br>$$</p></blockquote><h3 id="BCD码，余三码，格雷码"><a href="#BCD码，余三码，格雷码" class="headerlink" title="BCD码，余三码，格雷码"></a>BCD码，余三码，格雷码</h3><blockquote><p>例：<br>$$<br>(359)<em>{10} &#x3D; (0011\quad0101\quad1001)</em>{8421}<br>&#x3D;(0110\quad1000\quad1100)_{余三码}<br>$$</p></blockquote><p>格雷码：一种可靠性编码。因为这种代码中<strong>任何二组相邻<br>代码之间只相差一位码元不同</strong>，其它码相同。</p><table><thead><tr><th align="center">十进制数</th><th align="center">四位格雷码</th><th align="center">十进制数</th><th align="center">四位格雷码</th></tr></thead><tbody><tr><td align="center">0</td><td align="center">0000</td><td align="center">8</td><td align="center">1100</td></tr><tr><td align="center">1</td><td align="center">0001</td><td align="center">9</td><td align="center">1101</td></tr><tr><td align="center">2</td><td align="center">0011</td><td align="center">10</td><td align="center">1111</td></tr><tr><td align="center">3</td><td align="center">0010</td><td align="center">11</td><td align="center">1110</td></tr><tr><td align="center">4</td><td align="center">0110</td><td align="center">12</td><td align="center">1010</td></tr><tr><td align="center">5</td><td align="center">0111</td><td align="center">13</td><td align="center">1011</td></tr><tr><td align="center">6</td><td align="center">0101</td><td align="center">14</td><td align="center">1001</td></tr><tr><td align="center">7</td><td align="center">0100</td><td align="center">15</td><td align="center">1000</td></tr></tbody></table><h3 id="原码，反码，补码"><a href="#原码，反码，补码" class="headerlink" title="原码，反码，补码"></a>原码，反码，补码</h3><p>原码：正数前面加一位0，负数前面加一位1，表示法不变<br>反码：正数不变，负数符号位仍然为1，数值位按位取反<br>补码：正数不变，负数符号位仍然为1，数值位按位取反<strong>最后再加上1</strong></p><blockquote><p>例：<br>$$<br>-1001010 &#x3D; 11001010_{原码} &#x3D; 10110101_{反码} &#x3D; 10110110_{补码}<br>$$</p></blockquote><h3 id="基本逻辑关系"><a href="#基本逻辑关系" class="headerlink" title="基本逻辑关系"></a>基本逻辑关系</h3><p>与(AND) 或(OR) 非(NOT) 异或(XOR) 与非(NAND) 或非(NOR) 等</p>]]></content>
       
       
       <categories>
@@ -16,8 +16,6 @@
           <category> 笔记 </category>
           
           <category> 数电 </category>
-          
-          <category> VHDL </category>
           
       </categories>
       
@@ -28,22 +26,7 @@
             
             <tag> 数电 </tag>
             
-            <tag> VHDL </tag>
-            
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>abc</title>
-      <link href="/2024/11/29/abc/"/>
-      <url>/2024/11/29/abc/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://gitee.com/wwwwwwangzx/figurebed/raw/master/img/wallhavenm3rm5k.jpg"><br><img src="https://gitee.com/wwwwwwangzx/figurebed/raw/master/img/btr.png"></p>]]></content>
-      
-      
       
     </entry>
     
@@ -79,6 +62,19 @@
             <tag> Matplotlib </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>abc</title>
+      <link href="/2024/11/27/abc/"/>
+      <url>/2024/11/27/abc/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://gitee.com/wwwwwwangzx/figurebed/raw/master/img/wallhavenm3rm5k.jpg"><br><img src="https://gitee.com/wwwwwwangzx/figurebed/raw/master/img/btr.png"></p>]]></content>
+      
+      
       
     </entry>
     
