@@ -4,6 +4,54 @@
   
     
     <entry>
+      <title>shell学习笔记</title>
+      <link href="/2025/02/27/shell%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2025/02/27/shell%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="the-basic-princple-of-shell">The basic princple of shell</h2><ul><li><p><code>Prompt</code>(命令提示符) 最重要的信息就是工作路径，shell此时所处的“位置”，一定要时时刻刻知道自己“在哪里”  具体操作为  <strong>rm 或 -rf 或 ./</strong>*</p></li><li><p><code>pwd</code>(print working directory)</p></li><li><p><code>cd path</code>(change directory), 其中~代表home, .代表当前路径, …代表上一级路径</p></li><li><p><code>ls -a</code> 列出所有文件和目录，包括隐藏文件</p></li><li><p><code>ls -l</code> 列出详细信息（文件权限，大小，修改时间等）</p></li><li><p><code>touch file</code> 创建一个文件</p></li><li><p><code>mkdir dir</code> 创建一个目录</p></li><li><p><code>cp src dst</code> 复制文件或目录 (-r 递归复制目录)</p></li><li><p><code>mv src dst1</code> 移动文件或目录(重命名)</p></li><li><p><code>rm files...</code> 删除文件 -r 递归删除目录 -f 强制删除</p></li><li><p><code>find path -name pattern</code> 在 path 下查找文件名匹配 pattern 的文件</p></li><li><p><code>cat files...</code> 输出与拼接文件 -n 带行号输出</p></li><li><p><code>head file</code> 输出 file 前10行 -n lines 输出lines行</p></li><li><p><code>tail file</code> 输出 file 后10行 -n lines 输出lines行</p></li><li><p><code>more/less file</code> 分页输出 file 内容 空格翻页，回车下一行，q 退出； less的功能更多 用法见 less -help</p></li><li><p><code>hexdump file</code> 以十六进制输出文件内容 -C 并排输出十六进制与ASCII -n N 输出前 N 个字节</p></li><li><p><code>man</code> 查看命令文档(manual)</p></li><li><p><code>echo</code> 输出字符串(常配合重定向 / 管道使用)</p></li><li><p><code>whoami</code> 获取当前用户</p></li><li><p><code>whereis</code> 查找命令所在位置</p></li><li><p><code>clear</code> 清屏</p></li><li><p><code>chmod</code> 更改文件权限</p></li><li><p><code>ps</code> 显示进程信息</p></li><li><p><code>date</code> 获取当前日期时间</p></li><li><p><code>kill</code> 杀死进程</p></li><li><p><code>grep</code> 搜索文件内容(常配合重定向 / 管道使用)</p></li><li><p><code>diff</code> 比较文件 / 目录内容</p></li><li><p><code>curl</code> 发送 HTTP 请求 wget 下载文件</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> shell </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> shell </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>微机原理</title>
+      <link href="/2025/02/17/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86/"/>
+      <url>/2025/02/17/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 微机原理 </tag>
+            
+            <tag> MCS-51单片机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>scipy matplotlib学习笔记</title>
       <link href="/2024/11/28/scipy-matplotlib%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
       <url>/2024/11/28/scipy-matplotlib%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
